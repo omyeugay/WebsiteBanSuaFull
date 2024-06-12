@@ -1,0 +1,76 @@
+.marT15 {margin-top: 15px;}
+textarea {resize: vertical;}
+label.error { color: #a94442; font-weight: 100; }
+
+.admin_loader {
+	position: fixed;
+	opacity: 0.9;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('admin_loader.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+
+/* Upload hiện ảnh lên luôn! */
+.upload-image {
+	position: relative;
+	text-align: center;
+	border: 1px dashed #d2d6de;
+	border-radius: 10px;
+	overflow: hidden;
+	height: 300px;
+}
+
+.upload-image::before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.upload-image img{
+	max-width: 90%;
+	display: inline-block;
+	max-height: 90%;
+	vertical-align: middle;
+}
+
+.upload-image input[type=file]{
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	cursor: pointer;
+}
+
+input[type="file"] {
+	width: 100%;
+}
+
+.table-bordered {color: #000;}
+.table-bordered>tbody>tr>td, .table-bordered>thead>tr>th {border: 1px solid #c1c1c1 !important;}
+.table-bordered>thead>tr>th {background: #dadada;}
+
+/* Tạo thanh cuộn ẩn khi dài quá */
+aside.main-sidebar{
+	height: 100vh;
+}
+section.sidebar{
+	height: 100%;
+	overflow-y: scroll;
+}
+section.sidebar::-webkit-scrollbar{
+	display: none;
+}
+
+/* Menu transition right when hover */
+.sidebar-menu>li:hover { padding-left: 5px; transition: ease-in 0.2s; }
+li.active {padding-left: 3px;}
+.treeview-menu li.active {padding-left: 0px;}
+
+
