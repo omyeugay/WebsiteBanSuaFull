@@ -15,6 +15,5 @@ websitecuaban.local/clear-cache để xóa cache , config và tạo lại srotag
 12. Đăng nhập admin tại: http://localhost:8000//admin . User/pass: 123456/1234560
 13. Update: Chạy url http://localhost:8000/clear-cache để xoa cache và config đi nhé.
 
-Mọi thắc mắc các bạn có thể liên hệ với mình qua số điện thoại SAU KHI MUA CODE
 Lưu ý:
 - Xóa file config.php trong bootstrap/cache/config.php nếu xảy ra lỗi.
